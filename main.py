@@ -9,8 +9,15 @@ from random import randint
 #e também o método imprimir(), que imprime na tela os valores de todos os
 #atributos da sua classe
 
-#Info com aluno
+print("-------------------------------------------------------------------------")
+#Info de aluno
 al = Aluno("Michael Mauricio de Sena Pacheco", 315999, "60072826002")
 al.imprimir()
-
-aem = AlunoEnsinoMedio("Cleiton Meireles", 635999, "80092814030")
+print("-------------------------------------------------------------------------")
+#Info de aluno com ano
+aem = AlunoEnsinoMedio("Almirante Meireles", 635999, "80092814030", 2003)
+aem.imprimir()
+print("-------------------------------------------------------------------------")
+#Info de aluno com série
+ag = AlunoGraduacao("Maximus Menegueli", 658999, "10703569996", "3°")
+ag.imprimir()
